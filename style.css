@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: yellow;
+  overflow: hidden;
+}
+.static-container {
+  width: 200px;
+  height: 120px;
+  border: 2px dotted green;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.fa-briefcase {
+  position: absolute;
+  top: -30px;
+}
+.fa-cloud {
+  position: absolute;
+  top: -30px;
+}
+
+.fa-apple {
+  position: absolute;
+  top: -30px;
+}
+
+.counter {
+  position: absolute;
+  font-size: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+}
+h4{
+    position: absolute;
+    bottom: 1px;
+}
